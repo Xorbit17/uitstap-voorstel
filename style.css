@@ -1,0 +1,70 @@
+/* === Typography and general layout === */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-size: 1rem;
+  margin: 2em;
+  color: #222;
+}
+
+h1, h2, h3, h4 {
+  font-family: inherit;
+  font-weight: 700;
+  color: #111;
+  page-break-after: avoid;
+  margin-top: 2em;
+}
+
+p {
+  orphans: 3;
+  widows: 3;
+  page-break-inside: avoid;
+  margin: 1em 0;
+}
+
+/* === Links === */
+a {
+  color: #0645AD;
+  text-decoration: underline;
+  word-break: break-word;
+}
+
+/* === Tables === */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5em 0;
+  page-break-inside: avoid;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 0.4em 0.6em;
+  text-align: left;
+}
+
+thead {
+  display: table-header-group;
+}
+
+tr {
+  page-break-inside: avoid;
+  break-inside: avoid;
+}
+
+/* === Print styling === */
+@media print {
+  body {
+    color: #000;
+  }
+
+  .page-break {
+    display: block;
+    page-break-before: always;
+  }
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
