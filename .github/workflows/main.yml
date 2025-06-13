@@ -11,6 +11,9 @@ jobs:
   converttopdf:
     name: Build PDF
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
     steps:
       - uses: actions/checkout@v3
       - uses: BaileyJM02/markdown-to-pdf@v1.2.0
