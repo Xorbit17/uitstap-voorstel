@@ -1,4 +1,4 @@
-name: Markdown to PDF
+name: Markdown to PDF, HTML, DOCX
 
 on:
   workflow_dispatch:
@@ -9,32 +9,43 @@ on:
       - README.md
 
 jobs:
-  converttopdf:
-    name: Convert README.md to PDF and HTML
+  convert-doc:
+    name: Convert README.md to multiple formats
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Convert Markdown to PDF and HTML
-        uses: BaileyJM02/markdown-to-pdf@v1.2.0
-        with:
-          input_dir: .
-          output_dir: output
-          build_html: true
+      - name: Install Pandoc and LaTeX
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-xetex
 
-      - name: List output files for debugging
-        run: ls -R output
+      - name: Convert to PDF, HTML, DOCX
+        run: |
+          mkdir output
+          pandoc README.md -o output/README.pdf
+          pandoc README.md -o output/README.html
+          pandoc README.md -o output/README.docx
 
-      - name: Upload PDF file as artifact
+      - name: Show output files
+        run: ls -lh output/
+
+      - name: Upload PDF as artifact
         uses: actions/upload-artifact@v4
         with:
           name: README-pdf
-          path: output/*.pdf
+          path: output/README.pdf
 
-      - name: Upload HTML file as artifact
+      - name: Upload HTML as artifact
         uses: actions/upload-artifact@v4
         with:
           name: README-html
-          path: output/*.html
+          path: output/README.html
+
+      - name: Upload DOCX as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: README-docx
+          path: output/README.docx
