@@ -1,4 +1,4 @@
-name: Markdown to PDF, HTML, DOCX
+name: Convert Markdown and Publish via GitHub Pages
 
 on:
   workflow_dispatch:
@@ -9,12 +9,11 @@ on:
       - README.md
 
 jobs:
-  convert-doc:
-    name: Convert README.md to multiple formats
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout source files
         uses: actions/checkout@v3
 
       - name: Install Pandoc and LaTeX
@@ -22,30 +21,15 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y pandoc texlive-xetex
 
-      - name: Convert to PDF, HTML, DOCX
+      - name: Convert README.md to HTML, PDF, DOCX
         run: |
           mkdir output
+          pandoc README.md -o output/index.html
           pandoc README.md -o output/README.pdf
-          pandoc README.md -o output/README.html
           pandoc README.md -o output/README.docx
-
-      - name: Show output files
-        run: ls -lh output/
-
-      - name: Upload PDF as artifact
-        uses: actions/upload-artifact@v4
+          
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          name: README-pdf
-          path: output/README.pdf
-
-      - name: Upload HTML as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: README-html
-          path: output/README.html
-
-      - name: Upload DOCX as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: README-docx
-          path: output/README.docx
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: output
