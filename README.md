@@ -1,3 +1,11 @@
+---
+title: "Voorstel uitstap naar Chevetogne"
+fontsize: 12pt
+mainfont: "Arial"
+geometry: margin=2.5cm
+linkcolor: blue
+colorlinks: true
+---
 [Download als PDF](README.pdf)  
 [Download als Word (DOCX)](README.docx)
 
