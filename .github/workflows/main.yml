@@ -10,26 +10,22 @@ on:
 
 jobs:
   converttopdf:
-    name: Convert README.md to PDF
+    name: Convert README.md to PDF and HTML
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Convert Markdown to PDF
+      - name: Convert Markdown to PDF and HTML
         uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_dir: .
           output_dir: output
           build_html: true
 
-      - name: Move generated files to pdfs/
-        run: |
-          mkdir -p pdfs
-          cp output/README.* pdfs/
-
-      - name: Commit PDF and HTML back to repo
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - name: Upload generated files as artifact
+        uses: actions/upload-artifact@v4
         with:
-          commit_message: "Auto-update: Generated README PDF and HTML"
-          file_pattern: pdfs/*
+          name: docs
+          path: output/
