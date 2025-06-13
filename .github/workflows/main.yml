@@ -1,25 +1,35 @@
-# .github/workflows/convert-to-pdf.yml
-
 name: Markdown to PDF
-# This workflow is triggered on pushes to the repository.
+
 on:
   workflow_dispatch:
   push:
     branches:
       - main
     paths:
-      - .
+      - README.md
+
 jobs:
   converttopdf:
-    name: Build PDF
+    name: Convert README.md to PDF
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: .
     steps:
-      - uses: actions/checkout@v3
-      - uses: BaileyJM02/markdown-to-pdf@v1.2.0
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Convert Markdown to PDF
+        uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_dir: .
-          output_dir: pdfs
+          output_dir: output
           build_html: true
+
+      - name: Move generated files to pdfs/
+        run: |
+          mkdir -p pdfs
+          cp output/README.* pdfs/
+
+      - name: Commit PDF and HTML back to repo
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Auto-update: Generated README PDF and HTML"
+          file_pattern: pdfs/*
