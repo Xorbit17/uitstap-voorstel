@@ -1,3 +1,6 @@
+📄 [Download als PDF](README.pdf)  
+📝 [Download als Word (DOCX)](README.docx)
+
 # Voorstel uitstap naar Chevetogne
 
 Gelet op de eerdere successen en op het feit dat Margaux en Maxime elk jaar vragen om eens naar Chevetogne te gaan doe ik jullie graag het volgende voorstel.
