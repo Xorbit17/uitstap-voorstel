@@ -24,7 +24,7 @@ jobs:
       - name: Convert README.md to HTML, PDF, DOCX
         run: |
           mkdir output
-          pandoc README.md -o output/index.html
+          pandoc README.md -o output/index.html --css=style.css
           pandoc README.md -o output/README.pdf
           pandoc README.md -o output/README.docx
           
