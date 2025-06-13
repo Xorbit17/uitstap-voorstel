@@ -24,14 +24,17 @@ jobs:
           output_dir: output
           build_html: true
 
-      - name: Upload PDF as artifact
+      - name: List output files for debugging
+        run: ls -R output
+
+      - name: Upload PDF file as artifact
         uses: actions/upload-artifact@v4
         with:
           name: README-pdf
-          path: output/README.pdf
+          path: output/*.pdf
 
-      - name: Upload HTML as artifact
+      - name: Upload HTML file as artifact
         uses: actions/upload-artifact@v4
         with:
           name: README-html
-          path: output/README.html
+          path: output/*.html
