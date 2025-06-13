@@ -1,5 +1,5 @@
-📄 [Download als PDF](README.pdf)  
-📝 [Download als Word (DOCX)](README.docx)
+[Download als PDF](README.pdf)  
+[Download als Word (DOCX)](README.docx)
 
 # Voorstel uitstap naar Chevetogne
 
