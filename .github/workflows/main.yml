@@ -29,7 +29,14 @@ jobs:
             --standalone \
             --css=style.css \
             --metadata title="Voorstel uitstap Chevetogne"
-          pandoc README.md -o output/README.pdf
+          pandoc README.md -o output/README.pdf \
+            --pdf-engine=xelatex \
+            -V title="Voorstel uitstap naar Chevetogne" \
+            -V mainfont="Arial" \
+            -V fontsize=12pt \
+            -V geometry=margin=2.5cm \
+            -V colorlinks=true \
+            -V linkcolor=blue
           pandoc README.md -o output/README.docx
           
       - name: Deploy to GitHub Pages
