@@ -24,8 +24,14 @@ jobs:
           output_dir: output
           build_html: true
 
-      - name: Upload generated files as artifact
+      - name: Upload PDF as artifact
         uses: actions/upload-artifact@v4
         with:
-          name: docs
-          path: output/
+          name: README-pdf
+          path: output/README.pdf
+
+      - name: Upload HTML as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: README-html
+          path: output/README.html
