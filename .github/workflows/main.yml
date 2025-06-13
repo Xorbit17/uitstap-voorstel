@@ -32,7 +32,7 @@ jobs:
           pandoc README.md -o output/README.pdf \
             --pdf-engine=xelatex \
             -V title="Voorstel uitstap naar Chevetogne" \
-            -V mainfont="Arial" \
+            -V mainfont="DejaVu Sans" \
             -V fontsize=12pt \
             -V geometry=margin=2.5cm \
             -V colorlinks=true \
