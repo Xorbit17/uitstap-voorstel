@@ -10,7 +10,7 @@ Er zijn twee opties:
 - ~~2 daagse trip: 15/08 en 16/08.~~
 - 3 daagse trip: 15/08, 16/08 en 17/08.
 
-**EDIT: Er werd gekozen door alle ouders voor de 3 daagse trip.
+**EDIT: Er werd gekozen door alle ouders voor de 3 daagse trip.**
 
 De reden waarom de 3 daagse opgekomen is heeft te maken met de prijsschaling voor de toegang tot het park en ook met de rij afstand van 2.5 uur (+-).
 
@@ -62,10 +62,11 @@ Ik hou alles koel met frigobox op verplaatsing omdat ik liefst proteïnerijke en
 
 Omdat er gekozen werd voor de 3 daagse trip kunnen we het schema relaxed houden zodat jong en oud niet te vroeg moeten opstaan.
 
-Voeg het event toe aan je kalendar met [deze link)[event.ics].
+Voeg het event toe aan je kalendar met [deze link](event.ics).
 
-Ophalen en vertrek: 15/08/2025 om 09:00.
-Terugkomst: 18/08/2025 om 18:00 met één uur marge.
+* Ophalen en vertrek: 15/08/2025 om 09:00.
+
+* Terugkomst: 18/08/2025 om 18:00 met één uur marge plus of min.
 
 ## De kosten
 
@@ -118,7 +119,7 @@ QR Code voor Tom en Elsbeth:
 
 QR Code voor Familie BOON.
 
-![payment-182](payment-195.png)
+![payment-182](payment-185.png)
 
 Alternatief is juiste bedrag storten op: `BE92 7795 9319 2723` met mededeling 'Betaling 3 daagse'.
 
