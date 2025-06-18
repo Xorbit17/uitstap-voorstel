@@ -113,6 +113,9 @@ Voor 3 daags voorstel TOTAAL:
 | 3 daagse | Tom       | 116       | **92**                |
 | 3 daagse | Fam. BOON | 232       | **185**               |
 
+Voor de betaling kun je de QR codes scannen met de bank app (niet met de camera app!).
+Alternatief is juiste bedrag storten op: `BE92 7795 9319 2723` met mededeling 'Betaling 3 daagse'.
+
 QR Code voor Tom en Elsbeth:
 
 ![payment-92](payment-92.png)
@@ -120,8 +123,6 @@ QR Code voor Tom en Elsbeth:
 QR Code voor Familie BOON.
 
 ![payment-182](payment-185.png)
-
-Alternatief is juiste bedrag storten op: `BE92 7795 9319 2723` met mededeling 'Betaling 3 daagse'.
 
 ## Mee te nemen
 
