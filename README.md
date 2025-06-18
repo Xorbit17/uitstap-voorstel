@@ -7,8 +7,10 @@ Gelet op de eerdere successen en op het feit dat Margaux en Maxime elk jaar vrag
 
 Er zijn twee opties:
 
-- 2 daagse trip: 15/08 en 16/08.
+- ~~2 daagse trip: 15/08 en 16/08.~~
 - 3 daagse trip: 15/08, 16/08 en 17/08.
+
+**EDIT: Er werd gekozen door alle ouders voor de 3 daagse trip.
 
 De reden waarom de 3 daagse opgekomen is heeft te maken met de prijsschaling voor de toegang tot het park en ook met de rij afstand van 2.5 uur (+-).
 
@@ -56,16 +58,25 @@ De chalet heeft kookfaciliteiten, comfortabele bedden en een badkamer.
 
 Ik hou alles koel met frigobox op verplaatsing omdat ik liefst proteïnerijke en vettige voeding aanbied aan de kinderen.
 
+## Pratkisch
+
+Omdat er gekozen werd voor de 3 daagse trip kunnen we het schema relaxed houden zodat jong en oud niet te vroeg moeten opstaan.
+
+Voeg het event toe aan je kalendar met [deze link)[event.ics].
+
+Ophalen en vertrek: 15/08/2025 om 09:00.
+Terugkomst: 18/08/2025 om 18:00 met één uur marge.
+
 ## De kosten
 
-Voor het park: Het voordeligst is om een 'familiepas' te nemen per voertuig (geldig voor alle inzittenden en voor het hele jaar). Dat kost 130 euro. Ergo: Of we nu twee of drie dagen gaat maakt dan qua toegang niet meer uit.
-De kost voor het park komt neer op 26 euro per kind voor 2 dagen of 3 dagen.
+Voor het park: Het voordeligst is om een 'familiepas' te nemen per voertuig (geldig voor alle inzittenden en voor het hele jaar). Dat kost 130 euro.
+De kost voor het park komt neer op 26 euro per kind voor 3 dagen.
 
 Voor het verblijf: Volgens airBNB is de kost voor de accommodatie 96 euro per nacht voor iedereen. Daarbij komen de vaste schoonmaak kosten en de service kosten die variabel zijn. In de tabel hieronder staat de kost per kind zoals aangegeven door airBNB. De kost per kind word bekomen door de totale kost te delen door 5.
 
 Voor het eten: Ik reken op 10 euro per kind per dag voor eten. We gaan vooral picknicken en eten uit de supermarkt waar mogelijk. Ik reken op één ijsje en één drankje ter plaatse ook maar dergelijke budget overruns neem ik voor mijn rekening.
 
-Voor het transport: De brandstofkosten worden berekend op basis van de afstand en een verbruik van 6.5 liter benzine per 100 kilometer aan 1.5 EUR per liter. Ik reken alleen de rij afstand tussen Blankenberge en het park. Meerkost is voor mijn rekening. Geen onderscheid in de formules.
+Voor het transport: De brandstofkosten worden berekend op basis van de afstand en een verbruik van 6.5 liter benzine per 100 kilometer aan 1.5 EUR per liter. Ik reken alleen de rij afstand tussen Blankenberge en het park. Meerkost is voor mijn rekening.
 
 ---
 
@@ -73,21 +84,18 @@ Kosten in EURO
 
 | Formule  | Kost accommodatie | Kost toegang park | Supplement maaltijd | Transport | Totaal per kind | Totaal kind/dag |
 | -------- | ---------------- | ----------------- | ------------------- | --------- | --------------- | --------------- |
-| 2 Daagse | 26               | 26                | 20                  | 10        | 82              | 41              |
 | 3 Daagse | 50               | 26                | 30                  | 10        | 116             | 39              |
 
 Dus voor twee kinderen totaal in EURO.
 
 | Formule  | Totale kost voor 2 kinderen |
 | -------- | --------------------------- |
-| 2 Daagse | 164                         |
 | 3 Daagse | 232                         |
 
 Totale kost van de tip voor 4 kinderen en mezelf met berekening ter controle (in EURO).
 
 | Formule  | Totale kost berekening                           | Totale kost | Totale kost per persoon |
 | -------- | ------------------------------------------------ | ----------- | ----------------------- |
-| 2 daagse | 130(park) + 133(verbl.) + 100(eten) + 50(trans.) | 413         | 82                      |
 | 3 daagse | 130(park) + 254(verbl.) + 150(eten) + 50(trans.) | 584         | 116                     |
 
 Omdat ikzelf met het plan op de proppen kwam bied ik elk gezin een korting aan van **20%**.
@@ -96,14 +104,6 @@ Omdat ikzelf met het plan op de proppen kwam bied ik elk gezin een korting aan v
 
 Gelet op het feit dat één gezin gescheiden is maak ik nog het volgende totale overzicht (in EURO).
 
-Voor 2 daags voorstel TOTAAL:
-
-| Formule  | Partij    | Kostprijs | Kostprijs met korting |
-| -------- | --------- | --------- | --------------------- |
-| 2 daagse | Elsbeth   | 82        | **65**                |
-| 2 daagse | Tom       | 82        | **65**                |
-| 2 daagse | Fam. BOON | 164       | **131**               |
-
 Voor 3 daags voorstel TOTAAL:
 
 | Formule  | Partij    | Kostprijs | Kostprijs met korting |
@@ -111,6 +111,16 @@ Voor 3 daags voorstel TOTAAL:
 | 3 daagse | Elsbeth   | 116       | **92**                |
 | 3 daagse | Tom       | 116       | **92**                |
 | 3 daagse | Fam. BOON | 232       | **185**               |
+
+QR Code voor Tom en Elsbeth:
+
+![payment-92](payment-92.png)
+
+QR Code voor Familie BOON.
+
+![payment-182](payment-195.png)
+
+Alternatief is juiste bedrag storten op: `BE92 7795 9319 2723` met mededeling 'Betaling 3 daagse'.
 
 ## Mee te nemen
 
