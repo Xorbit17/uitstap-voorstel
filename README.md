@@ -5,7 +5,7 @@
 
 - 3 daagse trip: 15/08, 16/08 en 17/08.
 
-## Pratkisch
+## Praktisch
 
 * Ophalen en vertrek: 15/08/2025
   * Lucas en Elise pik ik op om **08:30** in de Blankenbergse dijk
